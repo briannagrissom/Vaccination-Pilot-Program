@@ -1,1 +1,1 @@
-Some analyses for a vaccination pilot program as a Jupyter notebook.
+Analyses for a vaccination pilot program as a Jupyter notebook.
