@@ -1,1 +1,1 @@
-Data analysis for a vaccination dataset as a Jupyter notebook.
+Data analysis for vaccination dataset as a Jupyter notebook.
