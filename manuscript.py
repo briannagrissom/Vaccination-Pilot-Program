@@ -28,9 +28,9 @@ for idx in df.index:
     df.loc[idx, 'num_potential_sessions_after_enrollment'] = num_potential_sessions_after_enrollment
 
 # Fixing date of first visits
-site_fix = df[df['Site'] == 'Daw Lar Saw']
-for idx in site_fix.index:
-    dofv = site_fix.loc[idx, 'date_of_first_visit']
+site_fix_df = df[df['Site'] == site_fix]
+for idx in site_fix_df.index:
+    dofv = site_fix_df.loc[idx, 'date_of_first_visit']
     if dofv == pd.to_datetime('01/16/2024'):
         df.loc[idx, 'date_of_first_visit'] = pd.to_datetime('01/15/2024')
     if dofv == pd.to_datetime('05/05/2024'):
